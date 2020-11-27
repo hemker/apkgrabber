@@ -123,8 +123,7 @@ class UpdaterAdapter
     ) {
         mUpdates?.add(update)
         sort(true)
-        val index = mUpdates?.indexOf(update) as Int
-		getIndexForUpdate(update, {index -> notifyItemChanged(index)})
+		notifyDataSetChanged();
     }
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
