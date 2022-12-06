@@ -1,4 +1,4 @@
-package de.apkgrabber.adapter;
+package com.apkgetter.adapter;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -16,21 +16,21 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import de.apkgrabber.R;
-import de.apkgrabber.event.InstallAppEvent;
-import de.apkgrabber.event.SnackBarEvent;
-import de.apkgrabber.model.AppState;
-import de.apkgrabber.model.DownloadInfo;
-import de.apkgrabber.model.InstallStatus;
-import de.apkgrabber.model.InstalledApp;
-import de.apkgrabber.model.LogMessage;
-import de.apkgrabber.util.DownloadUtil;
-import de.apkgrabber.util.GooglePlayUtil;
-import de.apkgrabber.util.InstalledAppUtil;
-import de.apkgrabber.util.LogUtil;
-import de.apkgrabber.util.MyBus;
-import de.apkgrabber.util.PixelConversion;
-import de.apkgrabber.util.SnackBarUtil;
+import com.apkgetter.R;
+import com.apkgetter.event.InstallAppEvent;
+import com.apkgetter.event.SnackBarEvent;
+import com.apkgetter.model.AppState;
+import com.apkgetter.model.DownloadInfo;
+import com.apkgetter.model.InstallStatus;
+import com.apkgetter.model.InstalledApp;
+import com.apkgetter.model.LogMessage;
+import com.apkgetter.util.DownloadUtil;
+import com.apkgetter.util.GooglePlayUtil;
+import com.apkgetter.util.InstalledAppUtil;
+import com.apkgetter.util.LogUtil;
+import com.apkgetter.util.MyBus;
+import com.apkgetter.util.PixelConversion;
+import com.apkgetter.util.SnackBarUtil;
 import com.github.yeriomin.playstoreapi.AndroidAppDeliveryData;
 import com.github.yeriomin.playstoreapi.GooglePlayException;
 import com.squareup.otto.Subscribe;

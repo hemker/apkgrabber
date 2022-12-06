@@ -1,4 +1,4 @@
-package de.apkgrabber.test.steps
+package com.apkgetter.test.steps
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -16,9 +16,9 @@ import android.support.test.espresso.Espresso.onView
 import android.support.test.espresso.action.ViewActions.click
 import android.support.test.espresso.assertion.ViewAssertions.matches
 import android.support.test.espresso.matcher.ViewMatchers.*
-import de.apkgrabber.R
+import com.apkgetter.R
 
-import de.apkgrabber.activity.MainActivity_
+import com.apkgetter.activity.MainActivity_
 import junit.framework.TestCase
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -1,4 +1,4 @@
-package de.apkgrabber.receiver;
+package com.apkgetter.receiver;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -6,11 +6,11 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import de.apkgrabber.R;
-import de.apkgrabber.activity.MainActivity_;
-import de.apkgrabber.model.AppState;
-import de.apkgrabber.model.DownloadInfo;
-import de.apkgrabber.util.DownloadUtil;
+import com.apkgetter.R;
+import com.apkgetter.activity.MainActivity_;
+import com.apkgetter.model.AppState;
+import com.apkgetter.model.DownloadInfo;
+import com.apkgetter.util.DownloadUtil;
 
 import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EReceiver;

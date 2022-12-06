@@ -1,4 +1,4 @@
-package de.apkgrabber.service;
+package com.apkgetter.service;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -8,34 +8,34 @@ import android.content.Intent;
 import android.os.Build;
 
 
-import de.apkgrabber.R;
-import de.apkgrabber.adapter.UpdaterAdapter;
-import de.apkgrabber.event.UpdateFinalProgressEvent;
-import de.apkgrabber.event.UpdateProgressEvent;
-import de.apkgrabber.event.UpdateStartEvent;
-import de.apkgrabber.event.UpdateStopEvent;
-import de.apkgrabber.model.AppState;
-import de.apkgrabber.model.Constants;
-import de.apkgrabber.model.InstalledApp;
-import de.apkgrabber.model.LogMessage;
-import de.apkgrabber.model.Update;
-import de.apkgrabber.updater.IUpdater;
-import de.apkgrabber.updater.UpdaterAPKMirrorAPI;
-import de.apkgrabber.updater.UpdaterAPKPure;
-import de.apkgrabber.updater.UpdaterAptoide;
-import de.apkgrabber.updater.UpdaterGooglePlay;
-import de.apkgrabber.updater.UpdaterNotification;
-import de.apkgrabber.updater.UpdaterOptions;
-import de.apkgrabber.updater.UpdaterStatus;
-import de.apkgrabber.updater.UpdaterUptodown;
-import de.apkgrabber.util.AlarmUtil;
-import de.apkgrabber.util.GenericCallback;
-import de.apkgrabber.util.InstalledAppUtil;
-import de.apkgrabber.util.LogUtil;
-import de.apkgrabber.util.MyBus;
-import de.apkgrabber.util.NotificationHelper;
-import de.apkgrabber.util.ServiceUtil;
-import de.apkgrabber.util.VersionUtil;
+import com.apkgetter.R;
+import com.apkgetter.adapter.UpdaterAdapter;
+import com.apkgetter.event.UpdateFinalProgressEvent;
+import com.apkgetter.event.UpdateProgressEvent;
+import com.apkgetter.event.UpdateStartEvent;
+import com.apkgetter.event.UpdateStopEvent;
+import com.apkgetter.model.AppState;
+import com.apkgetter.model.Constants;
+import com.apkgetter.model.InstalledApp;
+import com.apkgetter.model.LogMessage;
+import com.apkgetter.model.Update;
+import com.apkgetter.updater.IUpdater;
+import com.apkgetter.updater.UpdaterAPKMirrorAPI;
+import com.apkgetter.updater.UpdaterAPKPure;
+import com.apkgetter.updater.UpdaterAptoide;
+import com.apkgetter.updater.UpdaterGooglePlay;
+import com.apkgetter.updater.UpdaterNotification;
+import com.apkgetter.updater.UpdaterOptions;
+import com.apkgetter.updater.UpdaterStatus;
+import com.apkgetter.updater.UpdaterUptodown;
+import com.apkgetter.util.AlarmUtil;
+import com.apkgetter.util.GenericCallback;
+import com.apkgetter.util.InstalledAppUtil;
+import com.apkgetter.util.LogUtil;
+import com.apkgetter.util.MyBus;
+import com.apkgetter.util.NotificationHelper;
+import com.apkgetter.util.ServiceUtil;
+import com.apkgetter.util.VersionUtil;
 
 import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EService;

@@ -1,4 +1,4 @@
-package de.apkgrabber.util.yalp;
+package com.apkgetter.util.yalp;
 
 import android.opengl.GLES10;
 import android.text.TextUtils;

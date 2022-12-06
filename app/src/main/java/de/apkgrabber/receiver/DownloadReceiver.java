@@ -1,4 +1,4 @@
-package de.apkgrabber.receiver;
+package com.apkgetter.receiver;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -11,14 +11,14 @@ import android.net.Uri;
 import android.os.Build;
 import android.support.v4.content.FileProvider;
 
-import de.apkgrabber.event.InstallAppEvent;
-import de.apkgrabber.event.PackageInstallerEvent;
-import de.apkgrabber.model.Constants;
-import de.apkgrabber.model.LogMessage;
-import de.apkgrabber.updater.UpdaterOptions;
-import de.apkgrabber.util.FileUtil;
-import de.apkgrabber.util.LogUtil;
-import de.apkgrabber.util.MyBus;
+import com.apkgetter.event.InstallAppEvent;
+import com.apkgetter.event.PackageInstallerEvent;
+import com.apkgetter.model.Constants;
+import com.apkgetter.model.LogMessage;
+import com.apkgetter.updater.UpdaterOptions;
+import com.apkgetter.util.FileUtil;
+import com.apkgetter.util.LogUtil;
+import com.apkgetter.util.MyBus;
 
 import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EReceiver;

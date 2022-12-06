@@ -1,4 +1,4 @@
-package de.apkgrabber.fragment;
+package com.apkgetter.fragment;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -17,16 +17,16 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import de.apkgrabber.R;
-import de.apkgrabber.adapter.SearchAdapter;
-import de.apkgrabber.event.SearchTitleChange;
-import de.apkgrabber.model.InstalledApp;
-import de.apkgrabber.model.LogMessage;
-import de.apkgrabber.updater.UpdaterOptions;
-import de.apkgrabber.util.GooglePlayUtil;
-import de.apkgrabber.util.LogUtil;
-import de.apkgrabber.util.MyBus;
-import de.apkgrabber.util.SnackBarUtil;
+import com.apkgetter.R;
+import com.apkgetter.adapter.SearchAdapter;
+import com.apkgetter.event.SearchTitleChange;
+import com.apkgetter.model.InstalledApp;
+import com.apkgetter.model.LogMessage;
+import com.apkgetter.updater.UpdaterOptions;
+import com.apkgetter.util.GooglePlayUtil;
+import com.apkgetter.util.LogUtil;
+import com.apkgetter.util.MyBus;
+import com.apkgetter.util.SnackBarUtil;
 import com.github.yeriomin.playstoreapi.DocV2;
 import com.github.yeriomin.playstoreapi.GooglePlayAPI;
 import com.github.yeriomin.playstoreapi.SearchIterator;

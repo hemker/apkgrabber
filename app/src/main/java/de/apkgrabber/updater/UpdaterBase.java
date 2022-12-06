@@ -1,10 +1,10 @@
-package de.apkgrabber.updater;
+package com.apkgetter.updater;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 import android.content.Context;
 
-import de.apkgrabber.util.VersionUtil;
+import com.apkgetter.util.VersionUtil;
 
 import java.util.List;
 

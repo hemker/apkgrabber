@@ -1,13 +1,13 @@
-package de.apkgrabber.util;
+package com.apkgetter.util;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 import android.content.Context;
 import android.util.Pair;
 
-import de.apkgrabber.updater.UpdaterOptions;
-import de.apkgrabber.util.yalp.NativeDeviceInfoProvider;
-import de.apkgrabber.util.yalp.OkHttpClientAdapter;
+import com.apkgetter.updater.UpdaterOptions;
+import com.apkgetter.util.yalp.NativeDeviceInfoProvider;
+import com.apkgetter.util.yalp.OkHttpClientAdapter;
 import com.github.yeriomin.playstoreapi.AndroidAppDeliveryData;
 import com.github.yeriomin.playstoreapi.DeviceInfoProvider;
 import com.github.yeriomin.playstoreapi.DocV2;

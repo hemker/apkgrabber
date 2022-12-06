@@ -1,4 +1,4 @@
-package de.apkgrabber.receiver;
+package com.apkgetter.receiver;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -6,7 +6,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import de.apkgrabber.util.AlarmUtil;
+import com.apkgetter.util.AlarmUtil;
 
 import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EReceiver;

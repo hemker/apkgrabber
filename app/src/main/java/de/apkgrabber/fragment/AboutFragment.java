@@ -1,4 +1,4 @@
-package de.apkgrabber.fragment;
+package com.apkgetter.fragment;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -14,10 +14,10 @@ import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import de.apkgrabber.R;
-import de.apkgrabber.model.Constants;
-import de.apkgrabber.util.ColorUtil;
-import de.apkgrabber.util.DownloadUtil;
+import com.apkgetter.R;
+import com.apkgetter.model.Constants;
+import com.apkgetter.util.ColorUtil;
+import com.apkgetter.util.DownloadUtil;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EFragment;

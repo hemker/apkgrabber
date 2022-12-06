@@ -1,4 +1,4 @@
-package de.apkgrabber.adapter;
+package com.apkgetter.adapter;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -15,12 +15,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import de.apkgrabber.R;
-import de.apkgrabber.model.InstalledApp;
-import de.apkgrabber.updater.UpdaterOptions;
-import de.apkgrabber.util.AnimationUtil;
-import de.apkgrabber.util.InstalledAppUtil;
-import de.apkgrabber.util.PixelConversion;
+import com.apkgetter.R;
+import com.apkgetter.model.InstalledApp;
+import com.apkgetter.updater.UpdaterOptions;
+import com.apkgetter.util.AnimationUtil;
+import com.apkgetter.util.InstalledAppUtil;
+import com.apkgetter.util.PixelConversion;
 
 import java.util.List;
 

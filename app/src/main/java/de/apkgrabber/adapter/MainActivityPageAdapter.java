@@ -1,4 +1,4 @@
-package de.apkgrabber.adapter;
+package com.apkgetter.adapter;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -7,11 +7,11 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import de.apkgrabber.fragment.InstalledAppFragment_;
-import de.apkgrabber.fragment.SearchFragment;
-import de.apkgrabber.fragment.SearchFragment_;
-import de.apkgrabber.fragment.UpdaterFragment_;
-import de.apkgrabber.R;
+import com.apkgetter.fragment.InstalledAppFragment_;
+import com.apkgetter.fragment.SearchFragment;
+import com.apkgetter.fragment.SearchFragment_;
+import com.apkgetter.fragment.UpdaterFragment_;
+import com.apkgetter.R;
 
 import java.security.InvalidParameterException;
 

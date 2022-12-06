@@ -1,4 +1,4 @@
-package de.apkgrabber.fragment;
+package com.apkgetter.fragment;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -14,23 +14,23 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import de.apkgrabber.R;
-import de.apkgrabber.adapter.UpdaterAdapter;
-import de.apkgrabber.event.RefreshUpdateTitle;
-import de.apkgrabber.event.UpdateFinalProgressEvent;
-import de.apkgrabber.event.UpdateProgressEvent;
-import de.apkgrabber.event.UpdateStartEvent;
-import de.apkgrabber.event.UpdateStopEvent;
-import de.apkgrabber.event.UpdaterTitleChange;
-import de.apkgrabber.model.AppState;
-import de.apkgrabber.model.Update;
-import de.apkgrabber.service.UpdaterService_;
-import de.apkgrabber.updater.UpdaterOptions;
-import de.apkgrabber.util.AnimationUtil;
-import de.apkgrabber.util.ColorUtil;
-import de.apkgrabber.util.InstalledAppUtil;
-import de.apkgrabber.util.MyBus;
-import de.apkgrabber.util.SnackBarUtil;
+import com.apkgetter.R;
+import com.apkgetter.adapter.UpdaterAdapter;
+import com.apkgetter.event.RefreshUpdateTitle;
+import com.apkgetter.event.UpdateFinalProgressEvent;
+import com.apkgetter.event.UpdateProgressEvent;
+import com.apkgetter.event.UpdateStartEvent;
+import com.apkgetter.event.UpdateStopEvent;
+import com.apkgetter.event.UpdaterTitleChange;
+import com.apkgetter.model.AppState;
+import com.apkgetter.model.Update;
+import com.apkgetter.service.UpdaterService_;
+import com.apkgetter.updater.UpdaterOptions;
+import com.apkgetter.util.AnimationUtil;
+import com.apkgetter.util.ColorUtil;
+import com.apkgetter.util.InstalledAppUtil;
+import com.apkgetter.util.MyBus;
+import com.apkgetter.util.SnackBarUtil;
 import com.squareup.otto.Subscribe;
 
 import org.androidannotations.annotations.AfterViews;

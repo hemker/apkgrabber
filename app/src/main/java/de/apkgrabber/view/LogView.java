@@ -1,4 +1,4 @@
-package de.apkgrabber.view;
+package com.apkgetter.view;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -8,8 +8,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import de.apkgrabber.R;
-import de.apkgrabber.model.LogMessage;
+import com.apkgetter.R;
+import com.apkgetter.model.LogMessage;
 
 import org.androidannotations.annotations.EViewGroup;
 import org.androidannotations.annotations.ViewById;

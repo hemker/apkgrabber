@@ -1,4 +1,4 @@
-package de.apkgrabber.adapter
+package com.apkgetter.adapter
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -6,19 +6,19 @@ import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import de.apkgrabber.R
-import de.apkgrabber.event.InstallAppEvent
-import de.apkgrabber.event.RefreshUpdateTitle
-import de.apkgrabber.model.Update
-import de.apkgrabber.util.MyBus
+import com.apkgetter.R
+import com.apkgetter.event.InstallAppEvent
+import com.apkgetter.event.RefreshUpdateTitle
+import com.apkgetter.model.Update
+import com.apkgetter.util.MyBus
 import com.squareup.otto.Subscribe
-import de.apkgrabber.util.DownloadUtil
-import de.apkgrabber.event.SnackBarEvent
-import de.apkgrabber.model.IgnoreVersion
-import de.apkgrabber.model.InstallStatus
-import de.apkgrabber.model.MergedUpdate
-import de.apkgrabber.updater.UpdaterOptions
-import de.apkgrabber.util.InjektUtil
+import com.apkgetter.util.DownloadUtil
+import com.apkgetter.event.SnackBarEvent
+import com.apkgetter.model.IgnoreVersion
+import com.apkgetter.model.InstallStatus
+import com.apkgetter.model.MergedUpdate
+import com.apkgetter.updater.UpdaterOptions
+import com.apkgetter.util.InjektUtil
 import uy.kohesive.injekt.api.get
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

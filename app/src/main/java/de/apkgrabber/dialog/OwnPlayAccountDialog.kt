@@ -1,4 +1,4 @@
-package de.apkgrabber.dialog
+package com.apkgetter.dialog
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -8,12 +8,12 @@ import android.support.v4.app.DialogFragment
 import android.support.v7.app.AlertDialog
 import android.view.ContextThemeWrapper
 import android.view.View
-import de.apkgrabber.R
-import de.apkgrabber.model.Constants
-import de.apkgrabber.updater.UpdaterOptions
-import de.apkgrabber.util.DownloadUtil
-import de.apkgrabber.util.GooglePlayUtil
-import de.apkgrabber.util.ThemeUtil
+import com.apkgetter.R
+import com.apkgetter.model.Constants
+import com.apkgetter.updater.UpdaterOptions
+import com.apkgetter.util.DownloadUtil
+import com.apkgetter.util.GooglePlayUtil
+import com.apkgetter.util.ThemeUtil
 import com.github.yeriomin.playstoreapi.AuthException
 import kotlinx.android.synthetic.main.dialog_own_play.view.*
 import kotlin.concurrent.thread

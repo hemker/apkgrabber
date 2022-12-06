@@ -1,4 +1,4 @@
-package de.apkgrabber.fragment;
+package com.apkgetter.fragment;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -9,14 +9,14 @@ import android.support.v7.preference.CheckBoxPreference;
 import android.preference.PreferenceManager;
 import android.support.v7.preference.PreferenceFragmentCompat;
 
-import de.apkgrabber.R;
-import de.apkgrabber.activity.MainActivity_;
-import de.apkgrabber.dialog.OwnPlayAccountDialog;
-import de.apkgrabber.event.UpdateInstalledAppsEvent;
-import de.apkgrabber.model.Constants;
-import de.apkgrabber.util.AlarmUtil;
-import de.apkgrabber.util.MyBus;
-import de.apkgrabber.util.SnackBarUtil;
+import com.apkgetter.R;
+import com.apkgetter.activity.MainActivity_;
+import com.apkgetter.dialog.OwnPlayAccountDialog;
+import com.apkgetter.event.UpdateInstalledAppsEvent;
+import com.apkgetter.model.Constants;
+import com.apkgetter.util.AlarmUtil;
+import com.apkgetter.util.MyBus;
+import com.apkgetter.util.SnackBarUtil;
 
 import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EFragment;

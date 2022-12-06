@@ -1,4 +1,4 @@
-package de.apkgrabber.util;
+package com.apkgetter.util;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -7,9 +7,9 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 
-import de.apkgrabber.R;
-import de.apkgrabber.receiver.AlarmReceiver_;
-import de.apkgrabber.updater.UpdaterOptions;
+import com.apkgetter.R;
+import com.apkgetter.receiver.AlarmReceiver_;
+import com.apkgetter.updater.UpdaterOptions;
 
 import org.androidannotations.annotations.EBean;
 
@@ -39,7 +39,7 @@ public class AlarmUtil
 
 		// Create the pending intent that will be called by the alarm
 		Intent intent = new Intent(context, AlarmReceiver_.class);
-		intent.setAction("de.apkgrabber.alarm");
+		intent.setAction("com.apkgetter.alarm");
 		alarmIntent = PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
 	}
 

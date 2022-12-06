@@ -1,4 +1,4 @@
-package de.apkgrabber.util;
+package com.apkgetter.util;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -7,8 +7,8 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
-import de.apkgrabber.model.InstalledApp;
-import de.apkgrabber.updater.UpdaterOptions;
+import com.apkgetter.model.InstalledApp;
+import com.apkgetter.updater.UpdaterOptions;
 
 import org.androidannotations.annotations.Background;
 import org.androidannotations.annotations.EBean;

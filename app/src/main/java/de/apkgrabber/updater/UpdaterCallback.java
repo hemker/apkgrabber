@@ -1,8 +1,8 @@
-package de.apkgrabber.updater;
+package com.apkgetter.updater;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-import de.apkgrabber.model.Update;
+import com.apkgetter.model.Update;
 
 interface UpdaterCallback
 {

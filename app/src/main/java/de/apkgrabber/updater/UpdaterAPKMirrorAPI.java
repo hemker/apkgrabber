@@ -1,18 +1,18 @@
-package de.apkgrabber.updater;
+package com.apkgetter.updater;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 import android.content.Context;
 
-import de.apkgrabber.model.APKMirror.AppExistsRequest;
-import de.apkgrabber.model.APKMirror.AppExistsResponse;
-import de.apkgrabber.model.APKMirror.AppExistsResponseApk;
-import de.apkgrabber.model.APKMirror.AppExistsResponseData;
-import de.apkgrabber.model.InstalledApp;
-import de.apkgrabber.model.Update;
-import de.apkgrabber.util.CollectionUtil;
-import de.apkgrabber.util.GenericCallback;
-import de.apkgrabber.util.VersionUtil;
+import com.apkgetter.model.APKMirror.AppExistsRequest;
+import com.apkgetter.model.APKMirror.AppExistsResponse;
+import com.apkgetter.model.APKMirror.AppExistsResponseApk;
+import com.apkgetter.model.APKMirror.AppExistsResponseData;
+import com.apkgetter.model.InstalledApp;
+import com.apkgetter.model.Update;
+import com.apkgetter.util.CollectionUtil;
+import com.apkgetter.util.GenericCallback;
+import com.apkgetter.util.VersionUtil;
 import com.google.gson.Gson;
 
 import java.security.cert.CertificateException;

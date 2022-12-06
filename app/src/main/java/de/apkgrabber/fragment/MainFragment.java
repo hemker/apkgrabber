@@ -1,4 +1,4 @@
-package de.apkgrabber.fragment;
+package com.apkgetter.fragment;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -7,14 +7,14 @@ import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 
-import de.apkgrabber.R;
-import de.apkgrabber.adapter.MainActivityPageAdapter;
-import de.apkgrabber.event.InstalledAppTitleChange;
-import de.apkgrabber.event.SearchTitleChange;
-import de.apkgrabber.event.UpdaterTitleChange;
-import de.apkgrabber.model.AppState;
-import de.apkgrabber.util.MyBus;
-import de.apkgrabber.view.CustomViewPager;
+import com.apkgetter.R;
+import com.apkgetter.adapter.MainActivityPageAdapter;
+import com.apkgetter.event.InstalledAppTitleChange;
+import com.apkgetter.event.SearchTitleChange;
+import com.apkgetter.event.UpdaterTitleChange;
+import com.apkgetter.model.AppState;
+import com.apkgetter.util.MyBus;
+import com.apkgetter.view.CustomViewPager;
 import com.squareup.otto.Subscribe;
 
 import org.androidannotations.annotations.AfterViews;

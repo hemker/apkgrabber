@@ -1,4 +1,4 @@
-package de.apkgrabber.util;
+package com.apkgetter.util;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -6,7 +6,7 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.os.Build;
 
-import de.apkgrabber.R;
+import com.apkgetter.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

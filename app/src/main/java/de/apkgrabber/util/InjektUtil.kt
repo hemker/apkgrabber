@@ -1,10 +1,10 @@
-package de.apkgrabber.util
+package com.apkgetter.util
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-import de.apkgrabber.activity.MainActivity
-import de.apkgrabber.adapter.UpdaterAdapter
-import de.apkgrabber.model.AppState
+import com.apkgetter.activity.MainActivity
+import com.apkgetter.adapter.UpdaterAdapter
+import com.apkgetter.model.AppState
 import uy.kohesive.injekt.api.InjektScope
 import uy.kohesive.injekt.api.addSingleton
 import uy.kohesive.injekt.registry.default.DefaultRegistrar

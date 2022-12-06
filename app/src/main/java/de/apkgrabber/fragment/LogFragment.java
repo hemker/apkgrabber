@@ -1,15 +1,15 @@
-package de.apkgrabber.fragment;
+package com.apkgetter.fragment;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 import android.support.v4.app.Fragment;
 import android.widget.ListView;
 
-import de.apkgrabber.R;
-import de.apkgrabber.adapter.LogAdapter;
-import de.apkgrabber.model.LogMessage;
-import de.apkgrabber.util.AnimationUtil;
-import de.apkgrabber.util.MyBus;
+import com.apkgetter.R;
+import com.apkgetter.adapter.LogAdapter;
+import com.apkgetter.model.LogMessage;
+import com.apkgetter.util.AnimationUtil;
+import com.apkgetter.util.MyBus;
 import com.squareup.otto.Subscribe;
 
 import org.androidannotations.annotations.AfterViews;

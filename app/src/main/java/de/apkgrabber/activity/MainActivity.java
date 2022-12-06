@@ -1,4 +1,4 @@
-package de.apkgrabber.activity;
+package com.apkgetter.activity;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -17,32 +17,32 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import de.apkgrabber.R;
-import de.apkgrabber.event.InstallAppEvent;
-import de.apkgrabber.event.PackageInstallerEvent;
-import de.apkgrabber.event.SnackBarEvent;
-import de.apkgrabber.fragment.AboutFragment_;
-import de.apkgrabber.fragment.LogFragment_;
-import de.apkgrabber.fragment.MainFragment;
-import de.apkgrabber.fragment.MainFragment_;
-import de.apkgrabber.fragment.SettingsFragment_;
-import de.apkgrabber.model.AppState;
-import de.apkgrabber.model.DownloadInfo;
-import de.apkgrabber.model.LogMessage;
-import de.apkgrabber.receiver.BootReceiver_;
-import de.apkgrabber.service.SelfUpdateService;
-import de.apkgrabber.service.UpdaterService;
-import de.apkgrabber.service.UpdaterService_;
-import de.apkgrabber.updater.UpdaterOptions;
-import de.apkgrabber.util.AnimationUtil;
-import de.apkgrabber.util.ColorUtil;
-import de.apkgrabber.util.InstalledAppUtil;
-import de.apkgrabber.util.InjektUtil;
-import de.apkgrabber.util.LogUtil;
-import de.apkgrabber.util.MyBus;
-import de.apkgrabber.util.ServiceUtil;
-import de.apkgrabber.util.SnackBarUtil;
-import de.apkgrabber.util.ThemeUtil;
+import com.apkgetter.R;
+import com.apkgetter.event.InstallAppEvent;
+import com.apkgetter.event.PackageInstallerEvent;
+import com.apkgetter.event.SnackBarEvent;
+import com.apkgetter.fragment.AboutFragment_;
+import com.apkgetter.fragment.LogFragment_;
+import com.apkgetter.fragment.MainFragment;
+import com.apkgetter.fragment.MainFragment_;
+import com.apkgetter.fragment.SettingsFragment_;
+import com.apkgetter.model.AppState;
+import com.apkgetter.model.DownloadInfo;
+import com.apkgetter.model.LogMessage;
+import com.apkgetter.receiver.BootReceiver_;
+import com.apkgetter.service.SelfUpdateService;
+import com.apkgetter.service.UpdaterService;
+import com.apkgetter.service.UpdaterService_;
+import com.apkgetter.updater.UpdaterOptions;
+import com.apkgetter.util.AnimationUtil;
+import com.apkgetter.util.ColorUtil;
+import com.apkgetter.util.InstalledAppUtil;
+import com.apkgetter.util.InjektUtil;
+import com.apkgetter.util.LogUtil;
+import com.apkgetter.util.MyBus;
+import com.apkgetter.util.ServiceUtil;
+import com.apkgetter.util.SnackBarUtil;
+import com.apkgetter.util.ThemeUtil;
 import com.squareup.otto.Subscribe;
 
 import org.androidannotations.annotations.Bean;
@@ -118,7 +118,7 @@ public class MainActivity
 			//mAppState.clearUpdates();
 		}
 
-		// Simulate a boot de.apkgrabber.receiver to set alarm
+		// Simulate a boot com.apkgetter.receiver to set alarm
 		new BootReceiver_().onReceive(getBaseContext(), null);
 
 		// Create fragments

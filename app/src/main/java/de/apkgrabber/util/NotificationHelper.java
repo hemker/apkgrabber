@@ -1,4 +1,4 @@
-package de.apkgrabber.util;
+package com.apkgetter.util;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;

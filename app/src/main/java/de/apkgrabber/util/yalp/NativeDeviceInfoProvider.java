@@ -1,4 +1,4 @@
-package de.apkgrabber.util.yalp;
+package com.apkgetter.util.yalp;
 
 import android.app.ActivityManager;
 import android.content.Context;

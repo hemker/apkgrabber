@@ -1,6 +1,6 @@
-package de.apkgrabber.util;
+package com.apkgetter.util;
 
-import de.apkgrabber.model.LogMessage;
+import com.apkgetter.model.LogMessage;
 
 import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EBean;

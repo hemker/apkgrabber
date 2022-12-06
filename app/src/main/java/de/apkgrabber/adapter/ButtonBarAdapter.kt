@@ -1,4 +1,4 @@
-package de.apkgrabber.adapter
+package com.apkgetter.adapter
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -7,8 +7,8 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import de.apkgrabber.R
-import de.apkgrabber.model.ActionButton
+import com.apkgetter.R
+import com.apkgetter.model.ActionButton
 import kotlinx.android.synthetic.main.button_bar_item.view.*
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

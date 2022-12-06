@@ -1,4 +1,4 @@
-package de.apkgrabber.service;
+package com.apkgetter.service;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -12,17 +12,17 @@ import android.graphics.BitmapFactory;
 import android.support.v4.app.NotificationCompat;
 
 import android.support.v7.preference.PreferenceManager;
-import de.apkgrabber.R;
-import de.apkgrabber.model.AppState;
-import de.apkgrabber.model.Constants;
-import de.apkgrabber.model.LogMessage;
-import de.apkgrabber.model.Update;
-import de.apkgrabber.util.DownloadUtil;
-import de.apkgrabber.util.FileUtil;
-import de.apkgrabber.util.GooglePlayUtil;
-import de.apkgrabber.util.InstalledAppUtil;
-import de.apkgrabber.util.LogUtil;
-import de.apkgrabber.util.MyBus;
+import com.apkgetter.R;
+import com.apkgetter.model.AppState;
+import com.apkgetter.model.Constants;
+import com.apkgetter.model.LogMessage;
+import com.apkgetter.model.Update;
+import com.apkgetter.util.DownloadUtil;
+import com.apkgetter.util.FileUtil;
+import com.apkgetter.util.GooglePlayUtil;
+import com.apkgetter.util.InstalledAppUtil;
+import com.apkgetter.util.LogUtil;
+import com.apkgetter.util.MyBus;
 
 import com.github.yeriomin.playstoreapi.AndroidAppDeliveryData;
 import com.google.gson.Gson;

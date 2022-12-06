@@ -1,4 +1,4 @@
-package de.apkgrabber.updater;
+package com.apkgetter.updater;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -10,9 +10,9 @@ import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.support.v4.app.NotificationCompat;
 
-import de.apkgrabber.R;
-import de.apkgrabber.model.Constants;
-import de.apkgrabber.receiver.NotificationClickReceiver_;
+import com.apkgetter.R;
+import com.apkgetter.model.Constants;
+import com.apkgetter.receiver.NotificationClickReceiver_;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -184,7 +184,7 @@ public class UpdaterNotification
 
 	private PendingIntent createPendingIntent(
 	) {
-		Intent intent = new Intent("de.apkgrabber.notification");
+		Intent intent = new Intent("com.apkgetter.notification");
 		intent.setFlags(0);
 		intent.setClass(mContext, NotificationClickReceiver_.class);
 		return PendingIntent.getBroadcast(mContext, 0, intent, 0);

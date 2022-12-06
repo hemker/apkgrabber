@@ -1,4 +1,4 @@
-package de.apkgrabber.adapter
+package com.apkgetter.adapter
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -7,15 +7,15 @@ import android.support.v7.widget.RecyclerView
 import android.text.Html
 import android.view.View
 import android.view.ViewGroup
-import de.apkgrabber.R
-import de.apkgrabber.activity.MainActivity
-import de.apkgrabber.model.*
-import de.apkgrabber.util.*
+import com.apkgetter.R
+import com.apkgetter.activity.MainActivity
+import com.apkgetter.model.*
+import com.apkgetter.util.*
 import com.github.yeriomin.playstoreapi.GooglePlayException
 import kotlinx.android.synthetic.main.updater_item.view.*
 import kotlin.concurrent.thread
 import android.support.v7.widget.LinearLayoutManager
-import de.apkgrabber.updater.UpdaterOptions
+import com.apkgetter.updater.UpdaterOptions
 import uy.kohesive.injekt.api.get
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

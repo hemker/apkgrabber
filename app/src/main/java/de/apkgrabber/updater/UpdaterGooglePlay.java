@@ -1,15 +1,15 @@
-package de.apkgrabber.updater;
+package com.apkgetter.updater;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 import android.content.Context;
 
-import de.apkgrabber.model.InstalledApp;
-import de.apkgrabber.model.Update;
-import de.apkgrabber.service.AutomaticInstallerService_;
-import de.apkgrabber.util.GenericCallback;
-import de.apkgrabber.util.GooglePlayUtil;
-import de.apkgrabber.util.ServiceUtil;
+import com.apkgetter.model.InstalledApp;
+import com.apkgetter.model.Update;
+import com.apkgetter.service.AutomaticInstallerService_;
+import com.apkgetter.util.GenericCallback;
+import com.apkgetter.util.GooglePlayUtil;
+import com.apkgetter.util.ServiceUtil;
 
 import com.github.yeriomin.playstoreapi.AppDetails;
 import com.github.yeriomin.playstoreapi.BulkDetailsEntry;

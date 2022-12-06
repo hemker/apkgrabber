@@ -1,4 +1,4 @@
-package de.apkgrabber.util.yalp;
+package com.apkgetter.util.yalp;
 
 import com.github.yeriomin.playstoreapi.AuthException;
 import com.github.yeriomin.playstoreapi.GooglePlayAPI;

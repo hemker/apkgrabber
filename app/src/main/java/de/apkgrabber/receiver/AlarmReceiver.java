@@ -1,4 +1,4 @@
-package de.apkgrabber.receiver;
+package com.apkgetter.receiver;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -7,8 +7,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 
-import de.apkgrabber.service.UpdaterService;
-import de.apkgrabber.service.UpdaterService_;
+import com.apkgetter.service.UpdaterService;
+import com.apkgetter.service.UpdaterService_;
 
 import org.androidannotations.annotations.EReceiver;
 

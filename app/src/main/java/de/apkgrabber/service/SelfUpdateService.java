@@ -1,4 +1,4 @@
-package de.apkgrabber.service;
+package com.apkgetter.service;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -11,18 +11,18 @@ import android.graphics.BitmapFactory;
 import android.support.v4.app.NotificationCompat;
 
 
-import de.apkgrabber.R;
-import de.apkgrabber.model.AppState;
-import de.apkgrabber.model.Constants;
-import de.apkgrabber.model.GitHub.Release;
-import de.apkgrabber.model.LogMessage;
-import de.apkgrabber.receiver.SelfUpdateNotificationReceiver_;
-import de.apkgrabber.updater.UpdaterOptions;
-import de.apkgrabber.util.InstalledAppUtil;
-import de.apkgrabber.util.LogUtil;
-import de.apkgrabber.util.MyBus;
-import de.apkgrabber.util.ServiceUtil;
-import de.apkgrabber.util.VersionUtil;
+import com.apkgetter.R;
+import com.apkgetter.model.AppState;
+import com.apkgetter.model.Constants;
+import com.apkgetter.model.GitHub.Release;
+import com.apkgetter.model.LogMessage;
+import com.apkgetter.receiver.SelfUpdateNotificationReceiver_;
+import com.apkgetter.updater.UpdaterOptions;
+import com.apkgetter.util.InstalledAppUtil;
+import com.apkgetter.util.LogUtil;
+import com.apkgetter.util.MyBus;
+import com.apkgetter.util.ServiceUtil;
+import com.apkgetter.util.VersionUtil;
 import com.google.gson.Gson;
 
 import org.androidannotations.annotations.Bean;
@@ -43,7 +43,7 @@ public class SelfUpdateService
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     static private final String BaseUrl = "https://api.github.com/";
-    static private final String LatestUrl = "repos/hemker/apkgrabber/releases/latest";
+    static private final String LatestUrl = "repos/peterkw/apkgetter/releases/latest";
     static private final String AcceptHeader = "application/vnd.github.v3+json";
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -101,7 +101,7 @@ public class SelfUpdateService
 		b.setChannelId(Constants.SelfUpdaterNotificationChannelId);
 
 		// Set the click intent
-        Intent intent = new Intent("de.apkgrabber.selfupdatenotification");
+        Intent intent = new Intent("com.apkgetter.selfupdatenotification");
         intent.setFlags(0);
         intent.setClass(c, SelfUpdateNotificationReceiver_.class);
         intent.putExtra("url", apkUrl);

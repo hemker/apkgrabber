@@ -1,4 +1,4 @@
-package de.apkgrabber.fragment;
+package com.apkgetter.fragment;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -9,15 +9,15 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SimpleItemAnimator;
 
 import android.util.Log;
-import de.apkgrabber.R;
-import de.apkgrabber.adapter.InstalledAppAdapter;
-import de.apkgrabber.event.InstalledAppTitleChange;
-import de.apkgrabber.event.UpdateInstalledAppsEvent;
-import de.apkgrabber.model.InstalledApp;
-import de.apkgrabber.updater.UpdaterOptions;
-import de.apkgrabber.util.GenericCallback;
-import de.apkgrabber.util.InstalledAppUtil;
-import de.apkgrabber.util.MyBus;
+import com.apkgetter.R;
+import com.apkgetter.adapter.InstalledAppAdapter;
+import com.apkgetter.event.InstalledAppTitleChange;
+import com.apkgetter.event.UpdateInstalledAppsEvent;
+import com.apkgetter.model.InstalledApp;
+import com.apkgetter.updater.UpdaterOptions;
+import com.apkgetter.util.GenericCallback;
+import com.apkgetter.util.InstalledAppUtil;
+import com.apkgetter.util.MyBus;
 import com.squareup.otto.Subscribe;
 
 import org.androidannotations.annotations.AfterViews;

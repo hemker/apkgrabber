@@ -1,4 +1,4 @@
-package de.apkgrabber.updater;
+package com.apkgetter.updater;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -6,9 +6,9 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import de.apkgrabber.R;
-import de.apkgrabber.model.Constants;
-import de.apkgrabber.model.IgnoreVersion;
+import com.apkgetter.R;
+import com.apkgetter.model.Constants;
+import com.apkgetter.model.IgnoreVersion;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

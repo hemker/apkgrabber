@@ -1,4 +1,4 @@
-package de.apkgrabber.model;
+package com.apkgetter.model;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -6,8 +6,8 @@ public class Constants
 {
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    static public final String PackageName = "de.apkgrabber";
-    static public final String GitHubURL = "https://github.com/hemker/apkgrabber";
+    static public final String PackageName = "com.apkgetter";
+    static public final String GitHubURL = "https://github.com/peterkw/apkgetter";
 	static public final String OwnAccountHelpURL = "https://github.com/rumboalla/apkupdater/issues/223";
     static public final String DownloadAction = PackageName + ".DOWNLOAD_COMPLETE";
     static public final String DownloadManagerAction = "android.intent.action.DOWNLOAD_COMPLETE";

@@ -1,8 +1,8 @@
-package de.apkgrabber.event;
+package com.apkgetter.event;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-import de.apkgrabber.model.Update;
+import com.apkgetter.model.Update;
 
 public class UpdateProgressEvent
 {

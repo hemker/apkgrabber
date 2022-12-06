@@ -1,4 +1,4 @@
-package de.apkgrabber.util;
+package com.apkgetter.util;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -11,7 +11,7 @@ import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import de.apkgrabber.model.Constants;
+import com.apkgetter.model.Constants;
 
 import java.io.File;
 import java.io.IOException;
