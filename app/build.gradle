@@ -7,13 +7,14 @@ android {
     buildToolsVersion "28.0.3"
 
     defaultConfig {
-        applicationId "de.apkgrabber"
+        applicationId "com.apkgetter"
         minSdkVersion 14
         targetSdkVersion 28
         versionCode 44
-        versionName "1.7.0"
-        testApplicationId "de.apkgrabber.test"
-        testInstrumentationRunner "de.apkgrabber.test.CucumberInstrumentation"
+        //APKGetter fork starts at version 2.0
+        versionName "2.0.0"
+        testApplicationId "com.apkgetter.test"
+        testInstrumentationRunner "com.apkgetter.test.CucumberInstrumentation"
         multiDexEnabled true
     }
 
