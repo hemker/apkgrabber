@@ -17,7 +17,7 @@
 <string name="notification_update_title_failed">"Zoeken naar updates mislukt"</string>
 <string name="already_updating">"Al bezig met zoeken naar updates"</string>
 <string name="update_finished">"Zoeken naar updates voltooid"</string>
-<string name="update_finished_with_errors">"Zoeken naar updates voltooid met $1 error(s)."</string>
+<string name="update_finished_with_errors">"Zoeken naar updates voltooid met $1 foutmelding(en)."</string>
 <string name="update_failed">"Zoeken naar updates mislukt met uitzondering $1."</string>
 <string name="update_no_sources">"Ten minste één bron moet worden geselecteerd."</string>
 <string name="preferences_general_category">"Algemene instellingen"</string>
@@ -31,9 +31,9 @@
 <string name="preferences_general_disable_animations_title">"Animaties uitschakelen"</string>
 <string name="preferences_general_disable_animations_summary">"Alle animaties en transities worden uitgezet."</string>
 <string name="preferences_general_skip_architecture_title">"Andere architectuur negeren"</string>
-<string name="preferences_general_skip_architecture_summary">"Hiermee zal worden geprobeerd apps die niet werken met jou architectuur te negeren. Werkt alleen met APKMirror."</string>
+<string name="preferences_general_skip_architecture_summary">"Hiermee zal worden geprobeerd apps die niet werken met jouw architectuur te negeren. Werkt alleen met APKMirror."</string>
 <string name="preferences_general_skip_minapi_title">"Verkeerde API versie negeren"</string>
-<string name="preferences_general_skip_minapi_summary">"Hiermee zal worden geprobeerd apps die niet op jou Android versie werken te negeren."</string>
+<string name="preferences_general_skip_minapi_summary">"Hiermee zal worden geprobeerd apps die niet op jouw Android versie werken te negeren."</string>
 <string name="preferences_general_exclude_system_apps_title">"Systeem apps negeren"</string>
 <string name="preferences_general_exclude_system_apps_summary">"Hiermee worden systeem apps genegeerd bij het zoeken naar updates."</string>
 <string name="preferences_general_exclude_disabled_apps_title">"Uitgeschakelde apps negeren"</string>
@@ -53,6 +53,8 @@
 <string name="preferences_general_use_uptodown_summary">"Uptodown gebruiken om naar updates te zoeken.   Langzaam, gebruikt veel zoekopdrachten."</string>
 <string name="preferences_general_use_apkpure_title">"Updates via APKPure"</string>
 <string name="preferences_general_use_apkpure_summary">"APKPure gebruiken om naar updates te zoeken. Gebruikt 2 opdrachten per app, daardoor langzamer."</string>
+<string name="preferences_general_use_aptoide_title">"Updates via Aptoide"</string>
+<string name="preferences_general_use_aptoide_summary">"Aptoide gebruiken om naar updates te zoeken."</string>
 <string name="preferences_general_wifi_only_title">"Alleen Wi-Fi"</string>
 <string name="preferences_general_wifi_only_summary">"Alleen op updates controleren als je verbonden bent met een Wi-Fi netwerk."</string>
 <string name="preferences_general_update_hour_title">"Update tijd"</string>
@@ -67,7 +69,7 @@
 <string name="alarm_never">"Nooit"</string>
 <string name="alarm_daily">"Dagelijks"</string>
 <string name="alarm_weekly">"Wekelijks"</string>
-<string name="theme_blue">"Blaauw Meth"</string>
+<string name="theme_blue">"Blauwe Meth"</string>
 <string name="theme_pink">"Roze Panter"</string>
 <string name="theme_dark">"Donkere Droid"</string>
 <string name="theme_orange">"Sinaasappelsap"</string>
@@ -80,7 +82,7 @@
 <string name="action_play">"INSTALLEREN"</string>
 <string name="action_installed">"GEÏNSTALLEERD"</string>
 <string name="install_success">"App is succesvol geïnstalleerd!"</string>
-<string name="install_failure">"Error bij het installeren!"</string>
+<string name="install_failure">"Fout bij het installeren!"</string>
 <string name="selfupdate_update">"Update %s"</string>
 
 <!-- Fuzzy -->
@@ -89,16 +91,19 @@
 <string name="automatic_installer_title">"Automatisch installeren"</string>
 <string name="automatic_installer_progress_title">"Automatisch installeren %1$d/%2$d"</string>
 <string name="automatic_installing">"%s Installeren"</string>
-<string name="automatic_error">"Error bij het installeren. Controleer logboek."</string>
+<string name="automatic_error">"Fout bij het installeren. Controleer logboek."</string>
 <string name="automatic_successfully_installed">"%d apps succesvol geïnstalleerd: "</string>
 <string name="automatic_failed_to_install">"Installeren van %d apps mislukt: "</string>
 <string name="preferences_play_own_account_title">"Eigen Google Account gebruiken"</string>
 <string name="preferences_play_own_account_summary">"Gebruik je eigen Google account ipv een gedeeld account."</string>
-<string name="get_token_error">"Error tijdens het verkrijgen van een token."</string>
-<string name="get_token_launch_url">"Opstarten two factor url."</string>
+<string name="get_token_error">"Fout tijdens het verkrijgen van een token."</string>
+<string name="get_token_launch_url">"Opstarten tweetraps url."</string>
 <string name="theme_amoled">"Darth Droid"</string>
 <string name="get_token_get_token">"TOKEN OPHALEN"</string>
 <string name="get_token_cancel">"ANNULEREN"</string>
 <string name="get_token_help">"HELP"</string>
 <string name="snackbar_close">"SLUITEN"</string>
+<string name="root_not_available">Root niet beschikbaar.</string>
+<string name="preferences_general_refresh_update_list_after_installation_summary">Ververs de updatelijst automatisch nadat de installatie is voltooid</string>
+<string name="preferences_general_refresh_update_list_after_installation_title">Refresh update list after an installation</string>
 </resources>
