@@ -1,3 +1,6 @@
+# Update Announcement
+Due to the advance in the original repository and other alternatives like AuroraStore, this repository is archived.
+
 # APKGrabber
 APKGrabber is a fork of [APKUpdater](https://github.com/rumboalla/apkupdater). Big thanks and of course
 all credits go to [rumboalla](https://github.com/rumboalla).
